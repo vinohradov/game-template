@@ -11,7 +11,6 @@
     left: 225px;
     right: 0;
     top: 55px;
-    display: inline-block;
     width: 251px;
     height: 2px;
     background: gainsboro;
@@ -45,7 +44,6 @@
     left:0;
     right: 0;
     top: 24px;
-    display: inline-block;
     width: 50px;
     height: 2px;
     background:#ffc600;
