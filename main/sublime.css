@@ -1,0 +1,63 @@
+.sublime-background-img{
+    background: url(../images/images/Layer%206.png);
+    background-color:rgba(41, 43, 62, 1);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    min-height:500px;
+    height:50vh;
+    color:white;
+}
+
+.sublime-header{
+    font-size:150px;
+    padding:100px 0;
+    font-weight:600;
+}
+
+.sublime-background-padding{
+    padding:0 0 0 80px;
+}
+
+
+.sub
+
+.sublime-text{
+    color:#ffc600;
+    padding-top:50px;
+}
+
+.sublime-header-text{
+    width:500px;
+}
+
+@media (max-width:780px){
+    .sublime-header{
+        font-size:120px;
+        font-weight:600;
+    }
+
+    .sublime-background-padding{
+        padding:0;
+    }
+
+    .sublime-header{
+        font-size:89px;
+    }
+}
+
+@media (max-width:620px){
+    .sublime-header-text{
+        width:400px;
+    }
+
+    .sublime-header-text {
+        width: 355px;
+    }
+}
+
+@media (max-width:476px){
+    .sublime-background-padding{
+        margin:0;
+    }
+}

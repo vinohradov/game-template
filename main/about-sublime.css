@@ -1,0 +1,109 @@
+.about-sublime-right{
+    display: inline-block;
+    width: 50%;
+}
+
+.about-sublime-header-right{
+    font-weight: 600;
+}
+
+.about-sublime-text-right{
+    padding-top:50px;
+    color:grey;
+}
+
+.about-sublime-left{
+    display: inline-block;
+    width:38%;
+    padding:60px;
+    line-height:70px;
+}
+
+.about-sublime-text-left{
+     font-size: 70px;
+     color: #717171;
+
+}
+
+.about-sublime-header-left{
+    font-size:90px;
+    position:relative;
+
+}
+
+.about-sublime-header-left:after{
+    content: " ";
+    position: absolute;
+    left: 175px;
+    right: 0;
+    top: 71px;
+    display: inline-block;
+    width: 204px;
+    height: 2px;
+    background: gainsboro;
+}
+
+.about-sublime-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-sublime-list__item{
+    width: 33.33%;
+    text-align: center;
+    padding-top:80px;
+}
+
+.about-sublime-list__img-holder{
+    width:80px;
+    height:80px;
+    border:2px solid #ffc600;
+    background-color: #e8e8e8;
+    border-radius:50px;
+    margin: 0 auto;
+}
+
+.about-our-item__img{
+    margin-top:25px;
+    width:40px;
+    height:30px;
+}
+
+.about-sublime-list__header-text{
+    margin:30px 0;
+    font-weight:600;
+    font-size:18px;
+}
+
+.about-sublime-list__text{
+    margin:20px;
+}
+
+.about-sublime-line {
+    border-left: 2px solid #ccc; /* Параметры линии */
+    margin-left: 10px;/* Отступ слева */
+    padding-left: 10px; /* Расстояние от линии до текста */
+}
+
+@media (max-width: 770px) {
+    .about-sublime-list__item{
+        width: 100%;
+        padding-top:20px;
+    }
+}
+
+@media (max-width:525px){
+    .about-sublime-left{
+        display: inline-block;
+        width:38%;
+        padding:60px 0;
+        line-height:70px;
+    }
+}
+
+@media (max-width:1200px){
+    .about-sublime-right{
+        width:90%;
+        text-align:center;
+    }
+}

@@ -1,0 +1,70 @@
+.awesome-games-background-image{
+    background: url(../images/images/Layer%205.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    min-height:500px;
+    height:100vh;
+    color:white;
+}
+
+.awesome-games-header{
+    font-size:70px;
+    line-height:70px;
+    padding: 100px 0 0 0;
+    font-weight:600;
+}
+
+
+
+.awesome-games-navigation-list {
+    display: flex;
+    font-size:18px;
+    color:white;
+    padding:50px 0 0 0;
+}
+
+.awesome-games-navigation-list__item {
+    margin: 0 10px;
+
+}
+
+.awesome-games-navigation-link {
+    position: relative;
+    transition:0.5s;
+    color:#ffc600;
+}
+
+.awesome-games-navigation-link:hover {
+    color:white;
+}
+
+
+.awesome-games-navigation-link:hover:after {
+    content: " ";
+    position: absolute;
+    left:0;
+    right: 0;
+    top: 24px;
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background:#ffc600;
+    transition:1s;
+}
+
+
+.awesome-games-navigation{
+    padding: 50px 0 0 0;
+    margin:0;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+@media (max-width:440px){
+
+}

@@ -1,0 +1,141 @@
+.our-team-header-text-right{
+    display: inline-block;
+    width: 65%;
+    margin:0 0 0 250px;
+}
+
+.our-team-left{
+    width:100px;
+    display:inline-block;
+}
+
+.our-team-section-content{
+    display:flex;
+}
+
+.our-team-text-right{
+    color:grey;
+    margin:15px 0 0 250px;
+}
+
+.our-team-right-img{
+    background-repeat:no-repeat;
+    background-position:right;
+    color:white;
+    min-height:200px;
+    width:220px;
+    margin:0 auto;
+}
+
+.boy-1-img{
+    background: url(../images/images/Layer%2029.png);
+    background-repeat:no-repeat;
+    background-position:right;
+    color:white;
+    min-height:200px;
+    width:220px;
+    margin:0 auto;
+}
+
+.boy-2-img{
+    background: url(../images/images/Layer%2028.png);
+    background-repeat:no-repeat;
+    background-position:right;
+    color:white;
+    min-height:200px;
+    width:220px;
+    margin:0 auto;
+}
+
+.boy-3-img{
+    background: url(../images/images/Layer%2030.png);
+    background-repeat:no-repeat;
+    background-position:right;
+    color:white;
+    min-height:200px;
+    width:220px;
+    margin:0 auto;
+}
+
+.boy-4-img{
+    background: url(../images/images/Layer%2031.png);
+    background-repeat:no-repeat;
+    background-position:right;
+    color:white;
+    min-height:200px;
+    width:220px;
+    margin:0 auto;
+}
+
+
+.our-team-img-list__item{
+    text-align:center;
+    margin-left:48px;
+
+}
+
+.our-team-img-list-right{
+    display:flex;
+    margin:50px 30px 0 0;
+    justify-content:flex-end;
+}
+
+.our-team-img-right-text{
+    font-weight:600;
+}
+
+.our-team-header{
+    font-size: 40px;
+    color:black;
+    font-weight:500;
+    line-height:50px;
+    padding: 2px 0 20px 52px;
+    white-space:nowrap;
+}
+
+@media (max-width:530px){
+    .our-team-left {
+        display: inline-block;
+        width:1%;
+    }
+
+    .our-team-header{
+        padding: 2px 0 20px 0;
+    }
+}
+
+
+@media (max-width:1200px){
+    .our-team-img-list-right {
+        display:inline;
+    }
+
+    .our-team-left {
+        width: 3px;
+    }
+
+    .our-team-header-text-right {
+        width:100%;
+        margin:84px 0 0 0;
+    }
+
+    .our-team-text-right {
+        color: grey;
+        margin:20px 0;
+    }
+
+    .our-team-right-img{
+        background-repeat:no-repeat;
+        background-position:center;
+        color:white;
+        min-height:300px;
+        width:380px;
+        margin:0 auto;
+    }
+
+    .our-team-img-list__item {
+        text-align: center;
+        margin-left:0;
+    }
+
+}
