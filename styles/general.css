@@ -5,6 +5,7 @@ body{
     line-height:25px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+    background-color:grey;
 }
 
 * {
@@ -99,4 +100,5 @@ a {
 .right-padding{
     padding-left:50px;
 }
+
 
