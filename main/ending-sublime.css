@@ -1,0 +1,83 @@
+.ending-siblime-background-img{
+    background:linear-gradient(180deg, rgba(211, 62, 97, .64), rgba(51, 22, 97, .64)),  url(../images/images/Layer%2047.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    min-height:500px;
+    background-position: center;
+    color:white;
+    max-height:100%;
+
+}
+
+.ending-sublime-navigation{
+    background: #000;
+    width:30%;
+    min-width:30%;
+}
+
+.ending-sublime-header{
+    font-size:50px;
+    padding:150px 0 50px;
+    font-weight:600;
+}
+
+.ending-sublime-padding{
+    padding:0 0 0 50px;
+}
+
+.ending-sublime-navigation-link{
+    text-transform: uppercase;
+    transition:0.5s;
+    white-space: nowrap;
+}
+
+.ending-sublime-navigation-list__item{
+    padding-top:20px;
+    min-width:1px;
+}
+
+.ending-sublime-navigation-link:hover{
+    color:#ffc600;
+}
+
+.ending-sublime-line{
+    width:140px;
+    height:2px;
+    background:#ffc600;
+    margin-top:60px;
+}
+
+.fab{
+    padding:20px 5px;
+}
+
+.ending-sublime-background-header{
+    position: absolute;
+    left: 450px;
+    top: 400px;
+    font-size:60px;
+    line-height:80px;
+    font-weight:600;
+}
+
+.ending-sublime-section-content{
+    position:relative;
+}
+
+@media (max-width:1012px){
+    .ending-sublime-background-header{
+        left:300px;
+    }
+}
+
+@media (max-width:900px){
+    .ending-sublime-background-header{
+        left:200px;
+    }
+}
+
+@media(max-width:807px){
+    .ending-sublime-background-header{
+        display:none;
+    }
+}

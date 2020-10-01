@@ -1,0 +1,101 @@
+.featured-projects-header{
+    font-size: 47px;
+    position: relative;
+    line-height: 50px;
+    white-space: nowrap;
+}
+
+.featured-projects-header:after{
+    content: " ";
+    position: absolute;
+    left: 225px;
+    right: 0;
+    top: 55px;
+    width: 251px;
+    height: 2px;
+    background: gainsboro;
+}
+
+.featured-projects-navigation-list__item{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: black;
+    display: inline-block;
+    margin: 45px 15px 0 0;
+
+}
+
+.navigation-link {
+    position: relative;
+    color: black;
+    transition:1s;
+    text-align:center;
+
+}
+
+.navigation-link:hover {
+    color:#ffc600;
+    transition:1s;
+    text-align:center;
+}
+.navigation-link:hover:after {
+    content: " ";
+    position: absolute;
+    left:0;
+    right: 0;
+    top: 24px;
+    width: 50px;
+    height: 2px;
+    background:#ffc600;
+    transition:1s;
+}
+
+.featured-projects-img-list{
+    font-size:0;
+    max-width:100%;
+    text-align:center;
+    margin-top:50px;
+}
+
+.featured-projects-img{
+    height:300px;
+    width:25%;
+    font-size:0;
+}
+
+.featured-projects-padding{
+    padding:0 0 0 50px;
+}
+
+@media (max-width:680px){
+    .featured-projects-padding{
+        padding:0;
+    }
+}
+
+@media (max-width:1000px){
+    .featured-projects-img {
+        height:200px;
+        width: 50%;
+        font-size: 0;
+    }
+}
+
+@media (max-width:500px){
+    .featured-projects-header {
+        font-size: 41px;
+    }
+
+    .featured-projects-header:after{
+        content: " ";
+        position: absolute;
+        left: 125px;
+        right: 0;
+        top: 55px;
+        display: inline-block;
+        width: 251px;
+        height: 2px;
+        background: gainsboro;
+    }
+
+}

@@ -1,0 +1,175 @@
+.contact-us-section-content-left{
+    display: inline-block;
+    vertical-align: top;
+    width:40%;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+.contact-us-section-content-right{
+    display: inline-block;
+    vertical-align: top;
+    width:50%;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 20px;
+    color:white;
+    text-align:left;
+}
+
+.contact-us-img {
+    margin: 0 auto;
+    width: 100%;
+    height: 729px;
+}
+
+.contact-us-section-content{
+    background:#9400D3;
+}
+
+.contact-us-header{
+    font-size:40px;
+    margin:60px 0 50px 80px;
+    position:relative;
+}
+
+.contact-us-header:after{
+    content: " ";
+    position: absolute;
+    left:5px;
+    right: 0;
+    top: 50px;
+    display: inline-block;
+    width: 223px;
+    height: 2px;
+    background: gainsboro;
+}
+
+
+.registration-contacts-form-input {
+    width:80%;
+    padding: 10px 7px;
+    margin-bottom:10px;
+    background: transparent;
+    font-weight:600;
+    color:white;
+    margin-top:15px;
+    border:2px solid white;
+    outline: none;
+    margin-left:50px;
+}
+
+.registration-notes-contacts-form-input {
+    width:80%;
+    padding: 10px 7px;
+    margin-bottom: 10px;
+    background: transparent;
+    margin-top:15px;
+    border:2px solid white;
+    outline: none;
+    font-weight:600;
+    margin-left:50px;
+}
+
+.btn-default{
+    display: inline-block;
+    padding: 12px 6px;
+    margin-left:50px;
+    margin-top: 40px;
+    background-color:#ffc600;
+    min-width:170px;
+    border:0;
+    text-transform: uppercase;
+    color:black;
+    font-weight:700;
+    transition:0.5s;
+}
+
+.field-line{
+    display:flex;
+}
+
+.registration-contacts-form-input-line{
+    width:85%;
+}
+
+.contact-us-section-location-header{
+    font-weight:600;
+    display:flex;
+    margin:20px 0 0 80px;
+}
+
+.contact-us-section-location-header p {
+    margin-left:20px;
+    font-weight:500;
+}
+
+.contact-us-section-location{
+    margin-top:40px;
+}
+
+
+a{color:white;}
+
+.contact-us-line{
+    width:80px;
+    border:1px solid gainsboro;
+    margin:30px 0 0 50px;
+}
+
+
+.contact-line{
+    width:90%;
+    border:1px solid white;
+
+}
+
+
+@media (max-width:1000px){
+    .contact-us-section-content-right{
+        width:100%;
+    }
+
+    .contact-us-img {
+        margin: 0 auto;
+        width: 250%;
+        height: 729px;
+    }
+}
+
+@media (max-width:610px){
+    .contact-us-header {
+        font-size: 40px;
+        margin: 60px 0 50px 0;
+    }
+
+    .registration-contacts-form-input-line {
+        width:80%;
+    }
+
+    .registration-notes-contacts-form-input {
+        width: 85%;
+        padding: 10px 7px;
+        margin-bottom: 10px;
+        background: transparent;
+        margin-top: 15px;
+        border: 2px solid white;
+        outline: none;
+        font-weight: 600;
+        margin-left: 0;
+    }
+
+    .registration-contacts-form-input {
+        width: 80%;
+        padding: 10px 7px;
+        margin-bottom: 10px;
+        background: transparent;
+        margin-top: 15px;
+        border: 2px solid white;
+        outline: none;
+        font-weight: 600;
+        margin-left: 0;
+    }
+}
